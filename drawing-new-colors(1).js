@@ -15,17 +15,17 @@ function keyPressed() {
   if (key == 'R') {
     fill(255, 0, 0);
   } else if (key == 'G') {
-    fill(0, 255, 0);
+    fill(100);
   } else if (key == 'B') {
-    fill(0, 0, 255); 
+    fill(0, 255, 100); 
   }else if (key == 'A') {
-    fill(0, 0, 255); 
+    fill(255, 20,0); 
   }else if (key == 'D') {
-    fill(100, 5, 255); 
+    fill(150); 
 	}else if (key == 'E') {
-    fill(100, 100, 255); 
-  }Eelse if (key == 'F') {
-    fill(200, 100, 255); 
+    fill(0, 255, 255); 
+  }else if (key == 'F') {
+    fill(100, 0, 255); 
   }
 }
 
