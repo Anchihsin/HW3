@@ -12,20 +12,18 @@ function draw() {
 
 function keyPressed() {
   print(key);
-	
-	if (key == 'R') {
-    fill(255, 0, 0);
-  } else if (key == 'G') {
-    fill(0, 255, 0);
-  } else if (key == 'B') {
-    fill(0, 0, 255); 
-  }else if (key == '1') {
-    diameter = 20;
-		fill(0, 0, 255);	
+  if (key == '1') {
+    fill(140,120, 150);
+		diameter = 30;
   } else if (key == '2') {
-    diameter = 40;
-		fill(0, 0, 255);
+    fill(200);
+		diameter = 60;
   } else if (key == '3') {
-		diameter = 70;
+		fill(244, 289, 129);
+		diameter = 90;
 	}
 }
+
+setup();
+draw();
+keyPressed();
