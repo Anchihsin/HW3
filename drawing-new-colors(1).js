@@ -14,11 +14,11 @@ function keyPressed() {
   print(key);
   if (key == 'R') {
     fill(255, 0, 0);
-  } else if (key == 'G') {
+  } else if (key == 'A') {
     fill(100);
   } else if (key == 'B') {
     fill(0, 255, 100); 
-  }else if (key == 'A') {
+  }else if (key == 'C') {
     fill(255, 20,0); 
   }else if (key == 'D') {
     fill(150); 
@@ -28,7 +28,3 @@ function keyPressed() {
     fill(100, 0, 255); 
   }
 }
-
-setup();
-draw();
-keyPressed();
